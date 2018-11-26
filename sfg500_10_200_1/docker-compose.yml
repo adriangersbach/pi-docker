@@ -1,0 +1,247 @@
+version: '3'
+
+services:
+  sfg500-01:
+    image: nginx
+    container_name: sfg500-01
+    hostname: pi-bas0002-sfg500-01
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.101
+    volumes:
+      - /var/log/nginx/sfg500/1:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/1:/usr/share/nginx/html:ro
+
+  sfg500-02:
+    image: nginx
+    container_name: sfg500-02
+    hostname: pi-bas0002-sfg500-02
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.102
+    volumes:
+      - /var/log/nginx/sfg500/2:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/2:/usr/share/nginx/html:ro
+
+  sfg500-03:
+    image: nginx
+    container_name: sfg500-03
+    hostname: pi-bas0002-sfg500-03
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.103
+    volumes:
+      - /var/log/nginx/sfg500/3:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/3:/usr/share/nginx/html:ro
+
+  sfg500-04:
+    image: nginx
+    container_name: sfg500-04
+    hostname: pi-bas0002-sfg500-04
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.104
+    volumes:
+      - /var/log/nginx/sfg500/4:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/4:/usr/share/nginx/html:ro
+
+  sfg500-05:
+    image: nginx
+    container_name: sfg500-05
+    hostname: pi-bas0002-sfg500-05
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.105
+    volumes:
+      - /var/log/nginx/sfg500/5:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/5:/usr/share/nginx/html:ro
+
+  sfg500-06:
+    image: nginx
+    container_name: sfg500-06
+    hostname: pi-bas0002-sfg500-06
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.106
+    volumes:
+      - /var/log/nginx/sfg500/6:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/6:/usr/share/nginx/html:ro
+
+  sfg500-07:
+    image: nginx
+    container_name: sfg500-07
+    hostname: pi-bas0002-sfg500-07
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.107
+    volumes:
+      - /var/log/nginx/sfg500/7:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/7:/usr/share/nginx/html:ro
+
+  sfg500-08:
+    image: nginx
+    container_name: sfg500-08
+    hostname: pi-bas0002-sfg500-08
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.108
+    volumes:
+      - /var/log/nginx/sfg500/8:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/8:/usr/share/nginx/html:ro
+
+  sfg500-09:
+    image: nginx
+    container_name: sfg500-09
+    hostname: pi-bas0002-sfg500-09
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.109
+    volumes:
+      - /var/log/nginx/sfg500/9:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/9:/usr/share/nginx/html:ro
+
+  sfg500-10:
+    image: nginx
+    container_name: sfg500-10
+    hostname: pi-bas0002-sfg500-10
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.110
+    volumes:
+      - /var/log/nginx/sfg500/10:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/10:/usr/share/nginx/html:ro
+
+  sfg500-11:
+    image: nginx
+    container_name: sfg500-11
+    hostname: pi-bas0002-sfg500-11
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.111
+    volumes:
+      - /var/log/nginx/sfg500/11:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/11:/usr/share/nginx/html:ro
+
+  sfg500-12:
+    image: nginx
+    container_name: sfg500-12
+    hostname: pi-bas0002-sfg500-12
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.112
+    volumes:
+      - /var/log/nginx/sfg500/12:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/12:/usr/share/nginx/html:ro
+
+  sfg500-13:
+    image: nginx
+    container_name: sfg500-13
+    hostname: pi-bas0002-sfg500-13
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.113
+    volumes:
+      - /var/log/nginx/sfg500/13:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/13:/usr/share/nginx/html:ro
+
+  sfg500-14:
+    image: nginx
+    container_name: sfg500-14
+    hostname: pi-bas0002-sfg500-14
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.114
+    volumes:
+      - /var/log/nginx/sfg500/14:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/14:/usr/share/nginx/html:ro
+
+  sfg500-15:
+    image: nginx
+    container_name: sfg500-15
+    hostname: pi-bas0002-sfg500-15
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.115
+    volumes:
+      - /var/log/nginx/sfg500/15:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/15:/usr/share/nginx/html:ro
+
+  sfg500-16:
+    image: nginx
+    container_name: sfg500-16
+    hostname: pi-bas0002-sfg500-16
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.116
+    volumes:
+      - /var/log/nginx/sfg500/16:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/16:/usr/share/nginx/html:ro
+
+  sfg500-17:
+    image: nginx
+    container_name: sfg500-17
+    hostname: pi-bas0002-sfg500-17
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.117
+    volumes:
+      - /var/log/nginx/sfg500/17:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/17:/usr/share/nginx/html:ro
+
+  sfg500-18:
+    image: nginx
+    container_name: sfg500-18
+    hostname: pi-bas0002-sfg500-18
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.118
+    volumes:
+      - /var/log/nginx/sfg500/18:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/18:/usr/share/nginx/html:ro
+
+  sfg500-19:
+    image: nginx
+    container_name: sfg500-19
+    hostname: pi-bas0002-sfg500-19
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.119
+    volumes:
+      - /var/log/nginx/sfg500/19:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/19:/usr/share/nginx/html:ro
+
+  sfg500-20:
+    image: nginx
+    container_name: sfg500-20
+    hostname: pi-bas0002-sfg500-20
+    restart: unless-stopped
+    networks:
+      default:
+        ipv4_address: 10.200.1.120
+    volumes:
+      - /var/log/nginx/sfg500/20:/var/log/nginx
+      - /usr/share/nginx/html/sfg500/20:/usr/share/nginx/html:ro      
+      
+networks:
+  default:
+    external:
+      name: macvlan200
