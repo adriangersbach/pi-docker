@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo docker ps -a
 
 sudo docker stop $(sudo docker ps -a -q)
