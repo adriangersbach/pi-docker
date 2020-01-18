@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo rm /var/log/nginx/sfg500/21/access.log
 sudo rm /var/log/nginx/sfg500/22/access.log
 sudo rm /var/log/nginx/sfg500/23/access.log
